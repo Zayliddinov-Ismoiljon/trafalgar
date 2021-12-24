@@ -1,0 +1,558 @@
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    src: 
+         url('./fonts/rubik-v14-latin_cyrillic-300.woff2') format('woff2'),
+         url('./fonts/rubik-v14-latin_cyrillic-300.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('./fonts/rubik-v14-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('./fonts/rubik-v14-latin_cyrillic-regular.woff') format('woff'); 
+  }
+  
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url('./fonts/rubik-v14-latin_cyrillic-700.woff2') format('woff2'), 
+         url('./fonts/rubik-v14-latin_cyrillic-700.woff') format('woff'); 
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  img{
+    vertical-align: middle;
+  }
+
+  .container{
+    box-sizing: border-box;
+    width: 1320px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header{
+    background-color:  #F6F6F6;
+  }
+
+  .header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  
+  .menu-list{
+    list-style: none;
+    display: flex;
+    margin-left: 300px;
+  }
+
+  .menu-list-item{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    color: #7D7987;
+    margin-right: 40px;
+  }
+
+  .list-item-link{
+    text-decoration: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    color: #7D7987;
+  }
+
+  .home{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-right: 40px;
+  }
+
+  .virtual-div{
+    display: flex;
+    margin-top: 84px;
+    align-items: center;
+    margin-bottom: 170px;
+  }
+
+  .virtual-text-div{
+    width: 450px;
+  }
+
+  .virtual-section-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .virtual-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    color: #7D7987;
+    font-size: 21px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+  }
+
+  .virtual-link{
+    text-decoration: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-size: 18px;
+    background-color: #458FF6;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .virtual-img{
+    width: 693px;
+    height: 598px;
+    justify-content: space-between;
+    margin-left: 108px;
+  }
+
+  .our-services-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 61px;
+  }
+
+  .our-services-span{
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #000;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 33px;
+  }
+
+  .our-services-text-div{
+    width: 952px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+  .our-services-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:  #7D7987;
+    margin-bottom: 78px;
+  }
+
+  .our-services-list{
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap;
+  }
+
+  .services-item{
+    width: 350px;
+    height: 354px;
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 10px;
+    padding-top: 54px;
+    padding-left: 37px;
+    padding-right: 50px;
+    margin-bottom: 74px;
+    margin-right: 34px;
+  }
+
+  .services-img{
+    width: 80px;
+    height: 90px;
+  }
+
+  .services-img-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .services-img-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7D7987;
+  }
+
+  .services-item-link{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .learn-link{
+    text-decoration: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    border-color: #458FF6;
+    border-radius: 55px;
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .leading-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .leading-img{
+    width: 650px;
+    height: 477px;
+  }
+ 
+  .leading-text-div{
+    width: 430px;
+  }
+
+  .leading-text-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .leading-span{
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 31px;
+  }
+
+  .leading-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7D7987;
+    margin-bottom: 37px;
+  }
+
+  .mobile-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+  }
+
+  .mobile-img{
+    width: 665px;
+    height: 434px;
+    margin-left: 71px;
+  }
+
+  .customer-div{
+    width: 1120px;
+    height: 425px;
+    background-color: #67C3F3;
+    border-radius: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 61px;
+    padding-left: 120px;
+    margin-bottom: 44px;
+  }
+
+  .customer-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    padding-top: 61px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .customer-span{
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 77px;
+  }
+
+  .edward-div{
+    display: flex;
+    align-items: center;
+  }
+
+  .edward-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .edward-text{
+    margin-left: 20px;
+  }
+
+  .edward-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .edward-name{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .edward-about{
+    width: 420px;
+    margin-left: 170px;
+  }
+
+  .edward-about-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    color: #fff;
+  }
+
+  .vector-img-div{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+  }
+
+  .vector-img{
+    width: 29px;
+    height: 17px;
+  }
+
+  .ellips-img{
+    width: 10px;
+    height: 10px;
+    margin-left: 91px;
+  }
+
+  .ellips2-img{
+    width: 10px;
+    height: 10px;
+    margin-left: 18px;
+  }
+
+  .vector-right-img{
+    width: 28px;
+    height: 17px;
+    margin-left: 92px;
+  }
+
+  .check-out-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .check-span{
+    display: block;
+    width: 56px;
+    height: 2px;
+    background-color: #7D7987;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 26px;
+    margin-bottom: 72px;
+  }
+
+  .check-list-div{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .check-list{
+    list-style: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .check-item{
+    width: 350px;
+    height: 512px;
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 34px;
+  }
+
+  .check-img{
+    width: 350px;
+    height: 246px;
+    border-radius: 20px;
+  }
+
+  .check-text-div{
+    width: 266px;
+    margin-top: 21px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .check-text-title{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .check-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7D7987;
+    margin-top: 16px;
+    margin-bottom: 35px;
+  }
+
+  .check-link{
+    text-decoration: none;
+    color: #4089ED;
+  }
+
+  .check-link-img{
+    width: 15px;
+    height: 9px;
+    margin-left: 10px;
+  }
+
+  .check-link-item{
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 74px;
+    margin-bottom: 150px;
+  }
+
+  .view-link{
+    text-decoration: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    background-color: #fff;
+    border: 1.4px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer{
+    background-color: #5A98F2;
+    padding-bottom: 100px;
+  }
+
+  .footer-list{
+    list-style: none;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 50px;
+  }
+
+  .footer-list-item{
+    width: 400px;
+  }
+
+  .footer-logo{
+    width: 160px;
+    height: 41px;
+  }
+
+  .footer-logo-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+    padding: 0;
+  }
+
+  .footer-logo-text1{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .company-item{
+    list-style: none;
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400px;
+    width: 150px;
+    margin-left: 140px;
+  }
+
+  .company{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .company-text{
+    font-family: "Rubik", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0;
+    
+  }
